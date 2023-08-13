@@ -1,9 +1,9 @@
 
-# nanogpt-lecture
+# description
 
-Code created in the [Neural Networks: Zero To Hero](https://karpathy.ai/zero-to-hero.html) video lecture series, specifically on the first lecture on nanoGPT. Publishing here as a Github repo so people can easily hack it, walk through the `git log` history of it, etc.
+GPT (Generative Pre-trained Transformer) is a state-of-the-art natural language processing model that uses a transformer architecture to understand and generate human-like text. Trained on vast amounts of text data, GPT can comprehend context, generate coherent paragraphs, answer questions, and perform various language-related tasks. Its key innovation lies in its ability to generate text sequentially, making it adept at producing contextually relevant and fluent passages. GPT has gained significant attention for its capacity to mimic human language, making it a valuable tool in applications such as chatbots, content creation, language translation, and more.
 
-NOTE: sadly I did not go too much into model initialization in the video lecture, but it is quite important for good performance. The current code will train and work fine, but its convergence is slower because it starts off in a not great spot in the weight space. Please see [nanoGPT model.py](https://github.com/karpathy/nanoGPT/blob/master/model.py) for `# init all weights` comment, and especially how it calls the `_init_weights` function. Even more sadly, the code in this repo is a bit different in how it names and stores the various modules, so it's not possible to directly copy paste this code here. My current plan is to publish a supplementary video lecture and cover these parts, then I will also push the exact code changes to this repo. For now I'm keeping it as is so it is almost exactly what we actually covered in the video.
+Tried building a GPT with lots of help, guidance and resources.
 
 ### License
 
